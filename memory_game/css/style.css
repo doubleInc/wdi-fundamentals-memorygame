@@ -1,5 +1,18 @@
 body {
     text-align: center;
+    margin: 0;
+}
+
+header {
+    background-color: #F15B31;
+    color: #ffffff;
+    padding: 30px 20px;
+}
+
+nav {
+    background-color: #00A6B3;
+    color: #FFFFFF;
+    padding: 20px 0;
 }
 
 h1 {
@@ -9,6 +22,7 @@ h1 {
     letter-spacing: 1px;
     color: #0d2c40;
     text-transform: uppercase;
+    margin: 0;
 }
 h2 {
     font-family: "Raleway", sans-serif;
@@ -24,12 +38,22 @@ a {
     font-weight: 600;
     font-size: 18px;
     letter-spacing: 1px;
-    color: #f15b31;
+    color: #FFFFFF;
     text-decoration: none;
+    margin: 0 20px;
 }
 
 p {
     line-height: 26px;
     font-size: 18px;
     font-family: "Droid Serif", serif;
+}
+main {
+    width: 850px;
+    margin: 0 auto;
+}
+img {
+    margin-right: 8px;;
+    margin-left: 8px;
+    margin-top: 40px;
 }
